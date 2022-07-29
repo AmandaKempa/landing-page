@@ -1,7 +1,8 @@
 
-#main {
+.main {
     font: 48px extra-bold
     color: white;
+    text-align: center;
 }
 
 .blue {
