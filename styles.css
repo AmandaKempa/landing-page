@@ -1,10 +1,59 @@
 
-.main {
-    font: 48px extra-bold
-    color: white;
-    text-align: center;
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.hero, .footer {
+    background-color: #1F2937;
 }
 
-.blue {
-    background-color: #1F2937;
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+a, .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-top: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call {
+    background-color: #3882F6;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+}
+
+#first-button {
+    border: none;
+}
+
+.gray {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+
+
+
 }
